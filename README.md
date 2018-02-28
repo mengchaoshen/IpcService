@@ -3,9 +3,13 @@ IPC demo 的服务端，主要是介绍IPC中AIDL和messenger的两种实现方�
 需要配合https://github.com/mengchaoshen/IpcClient ipc demo客户端一起使用
 
 主要是参考
+
  AIDL代码中的实际使用：
+ 
  http://blog.csdn.net/zxw136511485/article/details/50815062
+ 
  使用messenger实现IPC：
+ 
  http://blog.csdn.net/zxw136511485/article/details/53168501
  
 这两篇博客写出来的demo
