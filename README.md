@@ -35,4 +35,8 @@ AIDL,实现的client调用service的方法（client与service处于不同的进�
 
 根据资料中的例子，亲测Messenger的代码实现，可行，但是有几个注意点：
 
-1. 上述例子时，clinet会出现service intent must be explicit错误，解决方法：http://blog.csdn.net/shenzhonglaoxu/article/details/42675287,大致意思是，android5.0及以上，只能使用explicit显示方法来启动Service,所以上面文章把隐式改为显示就可以成功，或者直接使用显示来启动Service
+1. 上述例子时，clinet会出现service intent must be explicit错误，解决方法：
+
+http://blog.csdn.net/shenzhonglaoxu/article/details/42675287
+
+,大致意思是，android5.0及以上，只能使用explicit显示方法来启动Service,所以上面文章把隐式改为显示就可以成功，或者直接使用显示来启动Service
